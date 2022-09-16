@@ -1,0 +1,70 @@
+body {
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+
+#testDataForm {
+    color: black;
+    font-weight: bold;
+    font-size: 16pt;
+
+}
+
+.text-center{
+    font-weight: bold;
+    color: black;
+
+}
+
+#year,
+#round{
+    font-weight: bold;
+}
+
+#submitButton{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#clearButton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#header{
+    text-align: left;
+}
+
+.racer{
+    text-align: left;
+}
+
+.table td{
+    width: 22.5%;
+}
+
+.table th{
+    text-align: center;
+}
+
+#position{
+    text-align: left;
+}

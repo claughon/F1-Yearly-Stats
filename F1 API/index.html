@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="js/main.js">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<title>Formula 1 Stats</title>
+</head>
+<body>
+    <h1 class="text-center">Formula 1 Season Results</h1>
+    <div>
+        <form class="text-center" name="testData" id="testDataForm">
+            <label for="year">Year</label>
+            <input type="text" name="year" id="year">
+    
+            <label for="round">Round</label>
+            <input type="text" name="round" id="round">
+            <button type="submit" id="submitButton" onclick="load_data()">Get Results</button>
+            <button type="submit" id="clearButton" onclick="clear_data()">Clear Results</button>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                <section class="list-group header mt-3" id="header"></section>
+                <section class="list-group racer-list mt-3" id="racer">
+
+                
+                </section>
+            </div>
+        </div>
+
+    </div>
+   
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
